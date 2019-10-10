@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }*/
 
-/*Lab02*/
+/*Lab02
 int sumTwo(int x, int y){
 	return (x+y);
 }
@@ -35,11 +35,31 @@ int get_Max(int a, int b){
 }
 
 int main(){
-	int p, q, r;
+	return 0;
+}*/
+
+/*Lab03*/
+int sumTwo(int x, int y){
+	return (x+y);
+}
+
+int square(int n){
+	return (n*n);
+}
+
+int get_Max(int a, int b){
+	int max;
 	
-	p=sumTwo(15,45);
-	q=square(10);
-	r=get_Max(15, 45);
-	
-	printf("%d\t%d\t%d\n", p, q, r);
+	if(a<b)
+		return b;
+}
+
+int main(){
+	int a, b;
+	a=2;
+	b=5;
+
+	printf("sumTwo : %i\n", sumTwo(a, b));
+	printf("square : %i\n", square(a));
+	printf("get_Max : %i\n", get_Max(a, b));
 }
