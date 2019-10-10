@@ -28,7 +28,6 @@ int square(int n){
 }
 
 int get_Max(int a, int b){
-	int max;
 	
 	if(a<b)
 		return b;
@@ -48,7 +47,6 @@ int square(int n){
 }
 
 int get_Max(int a, int b){
-	int max;
 	
 	if(a<b)
 		return b;
