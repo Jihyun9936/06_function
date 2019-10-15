@@ -37,7 +37,7 @@ int main(){
 	return 0;
 }*/
 
-/*Lab03*/
+/*Lab03
 int sumTwo(int x, int y){
 	return (x+y);
 }
@@ -60,4 +60,17 @@ int main(){
 	printf("sumTwo : %i\n", sumTwo(a, b));
 	printf("square : %i\n", square(a));
 	printf("get_Max : %i\n", get_Max(a, b));
+}*/
+
+/*Lab04*/
+int square(int n);
+
+int main(){
+	int result;
+	result=square(5);
+	printf("%d", result);
+}
+
+int square(int n){
+	return (n*n);
 }
